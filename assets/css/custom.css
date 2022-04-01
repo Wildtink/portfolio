@@ -1,0 +1,190 @@
+a {
+    transition: all 0.3s ease-out 0s;
+    color: rgb(22, 28, 45) !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.text-purple {
+    color: #442d7c !important;
+}
+
+header {
+    padding: 1rem;
+}
+
+a.navbar-brand, a.nav-link {
+    font-weight: bold;
+}
+
+section {
+    padding-top: 6.5rem;
+    padding-bottom: 5rem;
+}
+
+p.heading, p.contact-heading {
+    font-size: 0.8125rem;
+    line-height: 1.63;
+    letter-spacing: 1.63px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(22, 28, 45);
+    margin-bottom: 40px;
+}
+
+h2.heading {
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: rgb(22, 28, 45);
+    letter-spacing: -2.81px;
+    font-size: 50px;
+    line-height: 56px;
+}
+
+h2.contact-heading {
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 0px;
+    color: rgb(22, 28, 45);
+}
+
+h4.footer-heading {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(22, 28, 45);
+}
+
+.contact-dot {
+    box-sizing: border-box;
+    min-width: 0px;
+    margin-right: 13px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.contact-btn {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.63px;
+    text-transform: uppercase;
+    padding: 23px 30px;
+    box-shadow: rgb(3 3 3 / 12%) 0px 32px 54px;
+    border-radius: 50rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    user-select: none;
+    transform: perspective(1px) translateZ(0px);
+    position: relative;
+    overflow: hidden;
+    border: none;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 179, 129);
+    transition: all 0.4s ease-out 0s;
+    outline: none !important;
+}
+
+.project-detail {
+    box-sizing: border-box;
+    min-width: 0px;
+    position: absolute;
+    overflow: hidden;
+    left: 20px;
+    right: 20px;
+    opacity: 0;
+    border-radius: 8px;
+    z-index: 1;
+    padding: 1.25rem 1.875rem;
+    transition: all 0.4s ease 0s;
+    background-color: white;
+    bottom: 20px;
+}
+
+p.project-heading {
+    font-size: 0.8125rem;
+    line-height: 1.63;
+    letter-spacing: 1.63px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(22, 28, 45, 0.7);
+    margin-bottom: 8px;
+}
+
+h4.project-heading {
+    font-size: 1.3125rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: rgb(22, 28, 45);
+}
+
+.about-img {
+    max-width: 200px;
+}
+
+@media (min-width: 576px) {
+    h2.heading {
+        font-size: 66px;
+        line-height: 70px;
+    }
+
+    h2.contact-heading {
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    h2.heading {
+        font-size: 76px;
+        line-height: 84px;
+    }
+
+    h2.contact-heading {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+
+    .scrolling {
+        transition: all 0.4s ease 0s;
+    }
+
+    .reveal-header {
+        transform: translateY(0%);
+        box-shadow: rgb(65 62 101 / 10%) 0px 12px 34px -11px;
+        z-index: 9999;
+        background: rgb(255, 255, 255);
+    }
+}
+
+@media (min-width: 1200px) {
+    h2.heading {
+        font-size: 80px;
+        line-height: 84px;
+    }
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
